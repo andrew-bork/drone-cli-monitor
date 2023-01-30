@@ -1,0 +1,21 @@
+{
+  "name": "mosquitto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Lin",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "jetty": "^0.2.1",
+    "keypress": "^0.2.1",
+    "mqtt": "^4.3.7",
+    "table": "^6.8.1"
+  },
+  "bin": {
+    "monitor": "./index.js"
+  }
+}
